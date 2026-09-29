@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soma Thanush | AI/ML & GenAI Engineer</title>
+    <meta
+      name="description"
+      content="3D portfolio for Soma Thanush, focused on AI/ML engineering, GenAI systems, model deployment, and real-world product impact."
+    />
+    <meta name="theme-color" content="#0d130e" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+    <div class="noise"></div>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>Soma Thanush</span>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="hero-copy glass">
+          <p class="eyebrow">IIIT Kottayam • AI/ML Engineer • GenAI Builder</p>
+          <h1>
+            Building AI systems that can <span>reason, retrieve, and act.</span>
+          </h1>
+          <p class="lead">
+            I build Agentic AI products using multi-agent architectures, LLMs, RAG, tool calling, and stateful workflows to transform complex tasks into practical user-facing systems.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#work">View Projects</a>
+            <a class="btn btn-secondary" href="#resume">View Resume</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="stat-grid">
+            <article>
+              <strong>Multi-Agent AI</strong>
+              <span>LangGraph, tool calling, stateful workflows</span>
+            </article>
+            <article>
+              <strong>GenAI & RAG</strong>
+              <span>RAG pipelines, vector DBs, evaluation</span>
+            </article>
+            <article>
+              <strong>Engineering</strong>
+              <span>Python, FastAPI, Docker, production APIs</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-card glass floating-card">
+          <div class="terminal-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="terminal-body">
+            <div><label>Role</label><span>AI/ML and Generative AI Engineer</span></div>
+            <div><label>Education</label><span>B.Tech CSE, IIIT Kottayam • CGPA 8.0/10</span></div>
+            <div><label>Strength</label><span>Multi-agent systems, LangGraph, RAG, FastAPI</span></div>
+            <div><label>Goal</label><span>Top AI/ML and GenAI roles and internships</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-grid">
+        <div class="glass panel about-panel">
+          <p class="section-tag">About Me</p>
+          <h2>Built for modern AI teams</h2>
+          <p>
+            I am Soma Thanush, a Computer Science undergraduate at IIIT Kottayam.
+            I build Agentic AI systems that combine LLMs, multi-agent workflows, RAG, and tool calling to create intelligent applications that can reason, retrieve, and act. My focus is on turning AI capabilities into practical, user-facing products.
+          </p>
+        </div>
+        <div class="glass panel highlights-panel">
+          <div class="mini-card">
+            <span>01</span>
+            <h3>Multi-Agent System Design</h3>
+            <p>LangGraph state graphs, conditional routing, critic agents, and persistent memory.</p>
+          </div>
+          <div class="mini-card">
+            <span>02</span>
+            <h3>LLM & RAG Pipelines</h3>
+            <p>Vector search (FAISS), Tavily web tools, semantic retrieval, and evaluation flows.</p>
+          </div>
+          <div class="mini-card">
+            <span>03</span>
+            <h3>Production Execution</h3>
+            <p>Python, FastAPI REST endpoints, Docker containerization, and cloud deployment.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-heading">
+          <p class="section-tag">Selected Work</p>
+          <h2>Key AI & GenAI Projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card glass">
+            <div class="project-orb orb-a"></div>
+            <h3>AI-Powered Resume & Interview Prep Agent</h3>
+            <p>
+              Architected a multi-agent LangGraph pipeline (Parser, JD Analyzer, Gap Analysis, Question Generator)
+              with adaptive Mock Interviewer agent, conditional routing, and persistent state checkpointing.
+            </p>
+            <ul class="project-tech">
+              <li>Python • LangGraph • LangChain</li>
+              <li>OpenAI API • Groq API • FastAPI</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/ThanushSoma23/Multi-agent-AI-interview-prep-system" target="_blank" rel="noreferrer" class="project-btn">
+                <span>GitHub Code</span> →
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-orb orb-b"></div>
+            <h3>Multi-Agent AI Research System</h3>
+            <p>
+              Built an autonomous multi-agent research workflow using LangGraph integrating planning, execution, and verification phases.
+              Equipped agents with Tavily Search and BeautifulSoup tools, alongside a Critic Agent for error recovery.
+            </p>
+            <ul class="project-tech">
+              <li>Python • LangGraph • Tavily API</li>
+              <li>OpenAI API • FastAPI • Docker</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/ThanushSoma23/R-AI-multi-agent-research-system-" target="_blank" rel="noreferrer" class="project-btn">
+                <span>GitHub Code</span> →
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-orb orb-c"></div>
+            <h3>Sovereign Agentic AI Workbench</h3>
+            <p>
+              Developed a sovereign agentic AI workbench environment supporting local model execution, multi-agent coordination, tool-calling pipelines, and autonomous stateful task execution.
+            </p>
+            <ul class="project-tech">
+              <li>Python • LangGraph • Tool Calling</li>
+              <li>Local LLMs • System Design</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/ThanushSoma23/sovereign-agentic-ai-workbench" target="_blank" rel="noreferrer" class="project-btn">
+                <span>GitHub Code</span> →
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-orb orb-a"></div>
+            <h3>AI-Powered PDF Chatbot (RAG)</h3>
+            <p>
+              Built an end-to-end RAG chatbot using LangChain, OpenAI API, FAISS, and Streamlit.
+              Users can upload PDFs and ask questions with answers grounded in source content.
+            </p>
+            <ul class="project-tech">
+              <li>LangChain • OpenAI • FAISS</li>
+              <li>Semantic Retrieval • Streamlit</li>
+            </ul>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-orb orb-b"></div>
+            <h3>Bank Marketing Term Deposit Prediction</h3>
+            <p>
+              Built and evaluated Logistic Regression and Random Forest models to predict customer deposit subscriptions
+              with full ML pipeline execution (preprocessing, feature engineering, ROC-AUC evaluation).
+            </p>
+            <ul class="project-tech">
+              <li>Python • Scikit-learn • Pandas</li>
+              <li>Classification Modeling</li>
+            </ul>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-orb orb-c"></div>
+            <h3>Real-Time Parking Slot Availability Checker</h3>
+            <p>
+              Developed a computer vision system using OpenCV to detect available parking slots from CCTV footage with real-time visual monitoring feedback.
+            </p>
+            <ul class="project-tech">
+              <li>Python • OpenCV • Computer Vision</li>
+              <li>Video Stream Processing</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-grid skills-grid">
+        <div class="glass panel">
+          <p class="section-tag">Core Stack</p>
+          <h2>Technical Expertise</h2>
+          <div class="chip-wrap">
+            <span>LangGraph</span>
+            <span>LangChain</span>
+            <span>Multi-Agent Systems</span>
+            <span>Tool Calling</span>
+            <span>Agent Memory</span>
+            <span>RAG</span>
+            <span>OpenAI API</span>
+            <span>Groq API</span>
+            <span>FastAPI</span>
+            <span>Python</span>
+            <span>Docker</span>
+            <span>Vector DBs (FAISS)</span>
+            <span>Tavily API</span>
+            <span>Streamlit</span>
+            <span>Scikit-learn</span>
+            <span>OpenCV</span>
+            <span>REST APIs</span>
+            <span>SQL</span>
+            <span>Java</span>
+            <span>C</span>
+            <span>Git</span>
+            <span>GitHub</span>
+          </div>
+        </div>
+        <div class="glass panel timeline-panel">
+          <p class="section-tag">What I Bring</p>
+          <div class="timeline-item">
+            <strong>Agentic Architectures</strong>
+            <span>Designing multi-agent state graphs with error handling, critic loops, and persistent checkpointing.</span>
+          </div>
+          <div class="timeline-item">
+            <strong>RAG & Retrieval Systems</strong>
+            <span>Building semantic search tools, web scrapers, and grounded context pipelines for LLMs.</span>
+          </div>
+          <div class="timeline-item">
+            <strong>Production Engineering</strong>
+            <span>Deploying containerized FastAPI backends, asynchronous workflows, and clean web frontends.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <div class="glass panel resume-card">
+          <div class="resume-header">
+            <div>
+              <p class="section-tag">Curriculum Vitae</p>
+              <h2>Soma Thanush</h2>
+              <p class="resume-subtitle">Computer Science Undergraduate | Aspiring GenAI Engineer</p>
+            </div>
+            <div class="resume-meta-box">
+              <span>📍 IIIT Kottayam, Kerala</span>
+              <span>📞 +91 630 195 4114</span>
+              <span>✉️ somathanush10@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="resume-block">
+            <h3>Profile Summary</h3>
+            <p>
+              Computer Science undergraduate specializing in autonomous multi-agent architectures, RAG pipelines, and LLM applications using LangGraph and LangChain. Proficient in building tool-calling agents, stateful workflows, and deploying scalable FastAPI backends.
+            </p>
+          </div>
+
+          <div class="resume-block">
+            <h3>Education</h3>
+            <div class="timeline-item">
+              <div class="edu-row">
+                <strong>B.Tech in Computer Science and Engineering</strong>
+                <span class="edu-badge">2024 – 2028</span>
+              </div>
+              <span>IIIT Kottayam, Kottayam, Kerala • CGPA: 8.0 / 10</span>
+            </div>
+          </div>
+
+          <div class="resume-block">
+            <h3>Categorized Skills</h3>
+            <div class="skills-category-grid">
+              <div class="skill-cat-box">
+                <strong>Agents & Core</strong>
+                <span>Multi-Agent Systems, LangGraph, LangChain, Tool Calling, Agent Memory, Planning & Execution</span>
+              </div>
+              <div class="skill-cat-box">
+                <strong>Models & Eval</strong>
+                <span>OpenAI APIs, Prompt Engineering, Fallback Handling, Error Recovery, Agent Evaluation</span>
+              </div>
+              <div class="skill-cat-box">
+                <strong>Languages & Web</strong>
+                <span>Python, Java, C, FastAPI, REST APIs, SQL, Object-Oriented Programming (OOP)</span>
+              </div>
+              <div class="skill-cat-box">
+                <strong>Tools & Cloud</strong>
+                <span>Docker, Streamlit, Vector DBs (FAISS), Git, Render, Pandas, NumPy, Matplotlib</span>
+              </div>
+              <div class="skill-cat-box">
+                <strong>CS Fundamentals</strong>
+                <span>Data Structures and Algorithms (DSA), DBMS, System Design (Basic)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-block">
+            <h3>Certifications & Leadership</h3>
+            <div class="timeline-panel">
+              <div class="timeline-item">
+                <strong>Data Science and Machine Learning</strong>
+                <span>Finalitics Certification</span>
+              </div>
+              <div class="timeline-item">
+                <strong>Fundamentals of Java</strong>
+                <span>Coursera</span>
+              </div>
+              <div class="timeline-item">
+                <strong>Coding Club & Leadership</strong>
+                <span>Member, Coding Club IIIT Kottayam • Volunteer for technical workshops & hackathons</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-actions">
+            <a class="btn btn-primary" href="https://github.com/ThanushSoma23" target="_blank" rel="noreferrer">
+              View GitHub Profile
+            </a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/somathanush" target="_blank" rel="noreferrer">
+              LinkedIn Profile
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="glass contact-card">
+          <p class="section-tag">Contact</p>
+          <h2>Open to AI/ML and GenAI internships and roles</h2>
+          <p>
+            I am seeking opportunities to contribute to real ML systems, LLM applications, and data-driven
+            product engineering with strong teams.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:somathanush10@gmail.com">Email Me</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/somathanush" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-secondary" href="https://github.com/ThanushSoma23" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
